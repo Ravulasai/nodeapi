@@ -1,12 +1,12 @@
-GET http://localhost:3000/books/
+GET http://localhost:3000/get-books/
 
 ###
 
-GET http://localhost:3000/books/3/
+GET http://localhost:3000/get-books/3/
 
 ###
 
-POST http://localhost:3000/books/
+POST http://localhost:3000/add-books/
 Content-Type: application/json
 
 {
